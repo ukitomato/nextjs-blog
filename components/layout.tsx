@@ -11,7 +11,7 @@ export default function Layout({children, home}: {
     children: React.ReactNode
     home?: boolean
 }) {
-    return <div className={styles.container}>
+    return <div lang='en' className={styles.container}>
         <Head>
             <link rel="icon" href="/favicon.ico"/>
             <meta
